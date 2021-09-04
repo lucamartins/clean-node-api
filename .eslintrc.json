@@ -2,5 +2,9 @@
     "extends": "standard-with-typescript",
     "parserOptions": {
         "project": "./tsconfig.json"
+    },
+    "rules": {
+        "skipBlankLines": true,
+        "@typescript-eslint/strict-boolean-expressions": false
     }
 }

@@ -4,7 +4,6 @@
         "project": "./tsconfig.json"
     },
     "rules": {
-        "skipBlankLines": true,
-        "@typescript-eslint/strict-boolean-expressions": false
+        "@typescript-eslint/strict-boolean-expressions": 0
     }
 }
